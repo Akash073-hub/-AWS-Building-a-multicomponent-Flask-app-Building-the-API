@@ -1,0 +1,60 @@
+type: edu
+files:
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: docker-compose.yaml
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 45
+        placeholder_text: "# Add here contents from the task description"
+        initial_state:
+          length: 45
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: Dnx9OnQ0kGResuaU4Mj9suYvPkQoPfnlhHRskHeUyDlbIVef3GyU4LlNrsZfVI7aJrkSHK3DHdaUTiLUXRPfIuDspmGH174K/0rIEmoVCkC2zWU3u2tP6QQJaYODQ5LzwopgYQGKH6aC1f/GYTE4Asf8Nq05vd6L+Sx6FYM0FhFVlfiESXBMLa4kv88IHP1qmso6d1EOSkbhO1GR0lpj6/U1XpTGau4WN1OyXdjpBnRhHiDc7OFqGqawXQSPhxJzeQ+a9pRwsbU0uLunAmLnUlH29PII1uklQeSMEnaxnSkMd7hC1J1Wd8suudbSlDuVH+SrkIchekG/3FJO0uwp3fr9mfbel9EgsWoY4DtTxlTbe93Z3hj5J7Ngazt9uzK1wu9vGEVXUdl/9uNdr+3dCA==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: gateway/__init__.py
+    visible: false
+    learner_created: false
+  - name: gateway/application.py
+    visible: true
+    learner_created: false
+  - name: gateway/Dockerfile
+    visible: true
+    learner_created: false
+  - name: gateway/requirements.txt
+    visible: true
+    learner_created: false
+  - name: invsys/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/api.py
+    visible: true
+    learner_created: false
+  - name: invsys/dal.py
+    visible: true
+    learner_created: false
+  - name: invsys/Dockerfile
+    visible: true
+    learner_created: false
+  - name: invsys/requirements.txt
+    visible: true
+    learner_created: false
+  - name: runConfigurations/Composing_system_docker-compose_Test.run.xml
+    visible: false
+    learner_created: false
+  - name: buildConfigurations/Composing_system_docker-compose_Build.run.xml
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,78 @@
+type: theory
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: Dockerfile
+    visible: true
+    learner_created: false
+  - name: api.py
+    visible: true
+    learner_created: false
+  - name: dal.py
+    visible: true
+    learner_created: false
+  - name: requirements.txt
+    visible: true
+    learner_created: false
+  - name: images/add.svg
+    visible: false
+    learner_created: false
+  - name: images/add_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/browse_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/browse.svg
+    visible: false
+    learner_created: false
+  - name: images/port_bindings_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/port_bindings.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/add_configuration.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/add_configuration_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/run.svg
+    visible: false
+    learner_created: false
+  - name: images/run_dark.svg
+    visible: false
+    learner_created: false
+  - name: images/run_myrunconfig_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/run_myrunconfig.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/stop_container_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/stop_container.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/delete_image.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/delete_image_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

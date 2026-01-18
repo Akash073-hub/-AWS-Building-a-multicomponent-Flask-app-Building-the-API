@@ -1,0 +1,70 @@
+type: edu
+files:
+  - name: gateway/application.py
+    visible: true
+    placeholders:
+      - offset: 1161
+        length: 39
+        placeholder_text: "# TODO: make the post request to invsys"
+        initial_state:
+          length: 39
+          offset: 1161
+        initialized_from_dependency: false
+        encrypted_possible_answer: U0Yc7xHY5Cgn6FSWlq6UAHmAj7msiR8xeAymtlPb7lp0nD7tzvz3kI4ID8q82Y1X1jw2b4QPVRmRerIjkK3eHEa0RBMZ2dDFcqA5eaxm0Rc=
+        selected: false
+        status: Unchecked
+      - offset: 1259
+        length: 6
+        placeholder_text: "# TODO"
+        initial_state:
+          length: 6
+          offset: 1259
+        initialized_from_dependency: false
+        encrypted_possible_answer: bOxrT7jh+aaaVjxpO5rq8OkleSX35Q6J8SH9zDL1CUWtUCLmChN11XS86mn76LHTf9DvpaE5QhmhQPLf+O/DZg==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: gateway/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/api.py
+    visible: true
+    learner_created: false
+  - name: invsys/dal.py
+    visible: true
+    learner_created: false
+  - name: invsys/Dockerfile
+    visible: true
+    learner_created: false
+  - name: invsys/requirements.txt
+    visible: true
+    learner_created: false
+  - name: docker-compose.yaml
+    visible: false
+    learner_created: false
+  - name: gateway/Dockerfile
+    visible: false
+    learner_created: false
+  - name: gateway/requirements.txt
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: runConfigurations/Post_Device_Test.run.xml
+    visible: false
+    learner_created: false
+  - name: buildConfigurations/Post_Device_Build.run.xml
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

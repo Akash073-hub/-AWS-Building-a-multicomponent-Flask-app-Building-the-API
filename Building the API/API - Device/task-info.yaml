@@ -1,0 +1,74 @@
+type: edu
+files:
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 685
+        placeholder_text: "# TODO: add another two required fields"
+        initial_state:
+          length: 39
+          offset: 605
+        initialized_from_dependency: false
+        encrypted_possible_answer: WmaGytGG5zkY8sZj0vKzpW2jBZf69WAID5UazrNqOdHm+7A3EHe9RYTCLHj0N3JHkoAFb6wwrGeAglIWvfAF/xoHc5CxHtxEqppeBbEFcZc=
+        selected: true
+        status: Unchecked
+      - offset: 856
+        length: 33
+        placeholder_text: "# TODO: get the device from the dictionary by its identifier"
+        initial_state:
+          length: 60
+          offset: 819
+        initialized_from_dependency: false
+        encrypted_possible_answer: 8NHMz6TNh8/HxiWyUwVTgf/NzDFFk17b8SUm1IQz3GzkvPzo3/+iHemYY9HCz8Fc
+        selected: true
+        status: Unchecked
+      - offset: 1223
+        length: 94
+        placeholder_text: "# TODO: if there's no such identifier in our data,  return\
+      \ a device not found message and a 404 response code"
+        initial_state:
+          length: 109
+          offset: 1212
+        initialized_from_dependency: false
+        encrypted_possible_answer: u09FJzB8dCpoLYrB94BGzrGsE8+fBkQ4Yf5EiE1vgeBgkX6HuQ3zOMaluZQwknmjPT7CNL81BsVycu+3o64PZpYMQt/ZvC1CEqJT4ucFnGxDi7bVtHkt3+OwFmQ/qwe4
+        selected: true
+        status: Unchecked
+      - offset: 1466
+        length: 81
+        placeholder_text: "# TODO: if there's no such identifier in our data, return the\
+      \ device not found message and a 404 response code"
+        initial_state:
+          length: 110
+          offset: 1470
+        initialized_from_dependency: false
+        encrypted_possible_answer: u09FJzB8dCpoLYrB94BGzrGsE8+fBkQ4Yf5EiE1vgeBgkX6HuQ3zOMaluZQwknmjPT7CNL81BsVycu+3o64PZpYMQt/ZvC1CEqJT4ucFnGxDi7bVtHkt3+OwFmQ/qwe4
+        selected: true
+        status: Unchecked
+      - offset: 1556
+        length: 95
+        placeholder_text: "# TODO: delete the device with the identifier provided, return\
+      \ a device deleted message and a response code 200"
+        initial_state:
+          length: 111
+          offset: 1589
+        initialized_from_dependency: false
+        encrypted_possible_answer: xcbG32IOayKEK8B9ZkfoHIa3K3xipaUXzvN1O9p0aaTMewcSN8I7OkwaYXwkIe0NwhU8EYLVfjTS0V/A01e5fqGq3ij1+jfLaJ8d4fmbHtDO/K20r1TvBll6PcBn0o4E
+        selected: false
+        status: Unchecked
+    learner_created: false
+status: Unchecked
+feedback:
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Mon, 05 Jan 2026 12:16:15 UTC"
+record: -1

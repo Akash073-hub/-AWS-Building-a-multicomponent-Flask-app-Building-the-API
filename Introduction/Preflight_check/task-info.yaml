@@ -1,0 +1,28 @@
+type: edu
+custom_name: Preflight check
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: images/airplay_off_dark.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: images/airplay_off.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 25 Nov 2025 09:54:30 UTC"
+record: -1

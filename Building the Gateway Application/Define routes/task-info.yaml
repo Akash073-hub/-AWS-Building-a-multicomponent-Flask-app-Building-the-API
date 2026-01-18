@@ -1,0 +1,75 @@
+type: edu
+files:
+  - name: gateway/application.py
+    visible: true
+    placeholders:
+      - offset: 186
+        length: 40
+        placeholder_text: "# TODO: add a route for GET with item id"
+        initial_state:
+          length: 40
+          offset: 186
+        initialized_from_dependency: false
+        encrypted_possible_answer: NC91a1k+9PvbrKB6PDPkhATk7NR4+8ScLVsEfJbte46VBUdEofSkk04LD0cjAV6U43E2Mo8iaIKciO1mFIvRmA==
+        selected: false
+        status: Unchecked
+      - offset: 289
+        length: 30
+        placeholder_text: "# TODO: add a route for DELETE"
+        initial_state:
+          length: 30
+          offset: 289
+        initialized_from_dependency: false
+        encrypted_possible_answer: NC91a1k+9PvbrKB6PDPkhATk7NR4+8ScLVsEfJbte46VBUdEofSkk04LD0cjAV6U2M7GOKID7aLjY1U4IU36Rw==
+        selected: false
+        status: Unchecked
+      - offset: 381
+        length: 28
+        placeholder_text: "# TODO: add a route for POST"
+        initial_state:
+          length: 28
+          offset: 381
+        initialized_from_dependency: false
+        encrypted_possible_answer: NC91a1k+9PvbrKB6PDPkhB1GmPwkq1oSDz6tLyGAdBYW8PDsmiuWNfovQM/1Iehp
+        selected: false
+        status: Unchecked
+      - offset: 460
+        length: 27
+        placeholder_text: "# TODO: add a route for PUT"
+        initial_state:
+          length: 27
+          offset: 460
+        initialized_from_dependency: false
+        encrypted_possible_answer: NC91a1k+9PvbrKB6PDPkhATk7NR4+8ScLVsEfJbte46VBUdEofSkk04LD0cjAV6UWCMbHrPBLu9VMy8kHe0wvg==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: gateway/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/api.py
+    visible: true
+    learner_created: false
+  - name: invsys/dal.py
+    visible: true
+    learner_created: false
+  - name: invsys/Dockerfile
+    visible: true
+    learner_created: false
+  - name: invsys/requirements.txt
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1

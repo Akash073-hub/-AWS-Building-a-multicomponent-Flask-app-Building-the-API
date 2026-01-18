@@ -1,0 +1,60 @@
+type: edu
+files:
+  - name: gateway/application.py
+    visible: true
+    placeholders:
+      - offset: 1421
+        length: 23
+        placeholder_text: return 'Hello from PUT'
+        initial_state:
+          length: 23
+          offset: 1421
+        initialized_from_dependency: false
+        encrypted_possible_answer: QedCTBSaRjVniDqbRODsWAjvRRRwg9osaCazM5ZC8aaKWandC7auYVG00wmUbk42xrt9mUvohy0c3OvG4YX14JtbCvO1C095pIFT67rUV0/h+QsfDtzv9H9P2l3PB9j2kVCZAH575uoXe23HouBVPcdH5rpCmfIVDcR45ah+mf8Q4RrafC23B+lXzs9nGd9qrco+hjsDhQwI8jh0nx/mxBzP0YV2HHkr4Ovh2DszDG/rB2xH5JU3VBqSOIgg7kORvfFWSBFLQ6tLFrppM8KDdbYZUKcTr5xXRYaKgDP/ugsKb/oOLtzocAmh0w06Xe1/5pjKGJtSHKukr8uxQbuPGIANul9Eo99bicIngJb/DiI1ruqQ2czTfCJV5Eubu9IO
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: gateway/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/api.py
+    visible: true
+    learner_created: false
+  - name: invsys/dal.py
+    visible: true
+    learner_created: false
+  - name: invsys/Dockerfile
+    visible: true
+    learner_created: false
+  - name: invsys/requirements.txt
+    visible: true
+    learner_created: false
+  - name: gateway/Dockerfile
+    visible: false
+    learner_created: false
+  - name: gateway/requirements.txt
+    visible: false
+    learner_created: false
+  - name: docker-compose.yaml
+    visible: false
+    learner_created: false
+  - name: runConfigurations/Put_Device_Test.run.xml
+    visible: false
+    learner_created: false
+  - name: buildConfigurations/Put_Device_Build.run.xml
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

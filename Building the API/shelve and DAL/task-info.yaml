@@ -1,0 +1,33 @@
+type: edu
+files:
+  - name: dal.py
+    visible: true
+    placeholders:
+      - offset: 505
+        length: 36
+        placeholder_text: "# Populate the database db with data"
+        initial_state:
+          length: 36
+          offset: 505
+        initialized_from_dependency: false
+        encrypted_possible_answer: NznfsXw3F5/otp9tch57frwftWSfDyLHbIqszDAeQAKtN8e9xzNZjLvrqweys/UfFLUWcGJIdG/bBF0cX2Vq/g==
+        selected: false
+        status: Failed
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    learner_created: false
+status: Failed
+feedback:
+  message: Syntax Error
+  time: "Mon, 01 Dec 2025 09:00:45 UTC"
+record: -1

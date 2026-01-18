@@ -1,0 +1,58 @@
+type: edu
+files:
+  - name: dal.py
+    visible: true
+    placeholders:
+      - offset: 2063
+        length: 43
+        placeholder_text: "# TODO: delete the device from the database"
+        initial_state:
+          length: 43
+          offset: 2063
+        initialized_from_dependency: false
+        encrypted_possible_answer: xRz08YyzSXbF4iNaaTvGNkxT3Ok6K2D8r5v5ZPCDZz4=
+        selected: false
+        status: Unchecked
+      - offset: 2118
+        length: 9
+        placeholder_text: '"message"'
+        initial_state:
+          length: 9
+          offset: 2118
+        initialized_from_dependency: false
+        encrypted_possible_answer: 2w0dlxGh7Ti4QoHYP+AoiWfNS0mePqUfc99w6j3OnBIAmlgsclEJqQmV05Ng1gPZ
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 1652
+        length: 185
+        placeholder_text: |-
+          if identifier not in devices:
+                      return jsonify({'message': 'Device not found'}), 404
+                  del devices[identifier]
+                  return jsonify({'message': 'Device deleted'}), 200
+        initial_state:
+          length: 185
+          offset: 1652
+        initialized_from_dependency: false
+        encrypted_possible_answer: fWgEw3GL9O7vIZXdh+07gKUby/I9wNGKXs4cA21sDPtfGiA5STx13b/CZE4NTSty4321dztFw93gzxDWclXuEY1eyLSay5NT4OMjz+AjLFnxNmaX5R9yRLx/a0yDk/EJkp3lnTwPnkb+15kRmghmEGccSi2QxW9M+WkcIm55Nq7tllQd+Bl8x1NobOkyW1ZVi6qPCVMoxoBTqdOioKfI95XuW43l0mKQ31V/q8uh8GHy/Bpunlcuhew/vsUxoC4c
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: tests/api_test.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,54 @@
+type: edu
+files:
+  - name: dal.py
+    visible: true
+    placeholders:
+      - offset: 842
+        length: 58
+        placeholder_text: "# TODO: return None if the id is not found in the database"
+        initial_state:
+          length: 58
+          offset: 842
+        initialized_from_dependency: false
+        encrypted_possible_answer: dOe8R7Cp8zHSG+T5iPDK3kz1vkZ4/fw7o9FxApWYlAp50UC89dMsBbJkGyWeN/6w+JSGmhW0osfi96qQvqRWgA==
+        selected: false
+        status: Unchecked
+      - offset: 916
+        length: 56
+        placeholder_text: '"Return the device from the database accessed by the id"'
+        initial_state:
+          length: 56
+          offset: 916
+        initialized_from_dependency: false
+        encrypted_possible_answer: mg2KxGBSPqfZopFBr/LZ8vIOy5B0/CqDXPd0rwsRGhY=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 1000
+        length: 32
+        placeholder_text: device = devices.get(identifier)
+        initial_state:
+          length: 32
+          offset: 1000
+        initialized_from_dependency: false
+        encrypted_possible_answer: xWAQDqsdWCabxC8jd+f1Ymz7QTcBND5o4wJ9guupaGBxrUQcaTgtUsUXT95jm1y+
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: tests/api_test.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

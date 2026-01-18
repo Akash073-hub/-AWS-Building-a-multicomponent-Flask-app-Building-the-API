@@ -1,0 +1,45 @@
+type: edu
+files:
+  - name: Dockerfile
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 62
+        placeholder_text: "# Add the contents of the Dockerfile from the task description"
+        initial_state:
+          length: 62
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: yXt8RCnuw8ItBpYoEK1vHNmg/DzKWGFEKHSQKXg4jxcSxmQo2eSdekzrkYpi48Qy4BTNRsytne8HJiYMcDU4zo7VJQztmE3h60un0cOahdW2ASbWgIrZKS5mSxayKuzXmVKlS2L41CSlJykPodqpxcGPnXR1uzzRiJ7FdI6GM7UGnmpa5ssvYukNMHc0qT0U
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: requirements.txt
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    learner_created: false
+  - name: dal.py
+    visible: true
+    learner_created: false
+  - name: runConfigurations/Deploy_on_Docker_Dockerfile_Test.run.xml
+    visible: false
+    learner_created: false
+  - name: docker-compose.yml
+    visible: false
+    learner_created: false
+  - name: buildConfigurations/Deploy_on_Docker_Dockerfile_Build.run.xml
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

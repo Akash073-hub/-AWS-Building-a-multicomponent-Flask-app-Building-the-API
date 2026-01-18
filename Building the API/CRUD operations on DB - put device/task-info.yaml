@@ -1,0 +1,64 @@
+type: edu
+files:
+  - name: dal.py
+    visible: true
+    placeholders:
+      - offset: 1129
+        length: 58
+        placeholder_text: "# TODO: return None if the id is not found in the database"
+        initial_state:
+          length: 58
+          offset: 1129
+        initialized_from_dependency: false
+        encrypted_possible_answer: dOe8R7Cp8zHSG+T5iPDK3kz1vkZ4/fw7o9FxApWYlAp50UC89dMsBbJkGyWeN/6w+JSGmhW0osfi96qQvqRWgA==
+        selected: false
+        status: Unchecked
+      - offset: 1527
+        length: 6
+        placeholder_text: "# TODO"
+        initial_state:
+          length: 6
+          offset: 1527
+        initialized_from_dependency: false
+        encrypted_possible_answer: VsznAXPOEubXpyh6QkyTitmNXOYAWW5urnsIG53Rf/EWRjr3sQDCPnbBHFbqZuTu4x8m7Hf+U//73tNaaMOPFER4qwSNyy4jyFhY1UvjllNYKASeDV12NRBpZpovIS8M
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 1399
+        length: 266
+        placeholder_text: |-
+          # TODO: update the code to use dal. Return the same messages.
+                  if identifier not in devices:
+                      return jsonify({'message': 'Device not found'}), 404
+          
+                  devices[identifier].update(args)
+                  return jsonify({"updated device": identifier}), 200
+        initial_state:
+          length: 266
+          offset: 1399
+        initialized_from_dependency: false
+        encrypted_possible_answer: 3N4W7S8ZzNCquuOB6P6d/XdUPlMuCcE9zuWrIR40Bn9IfraiGXtY19z5xiTyhvh9Ev/Egt+xozy4b2DJsF/oRC/H8KTzgT44t0d2ejQDvBdDs0Tnczg+ddGGPvOnGE5OtMXNSGHV4v/WJE5nV2h6zlLmOb7+/1YL2s4v5A7Lh+/A0Q9WuuJn1YgMnBwxav19mxAvYC7kT6v8E8fPVwMH798TFKxRIOtBzBWZdinx1Jpk/ysFzTXMYZ5Jc9rag0/HqI5Li5Hl5a42bG+pf8pXag==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: tests/api_test.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Unchecked
+feedback:
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Tue, 25 Nov 2025 09:56:02 UTC"
+record: -1

@@ -1,0 +1,87 @@
+type: edu
+files:
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 875
+        length: 41
+        placeholder_text: "# TODO: declare a list of required_fields"
+        initial_state:
+          length: 41
+          offset: 875
+        initialized_from_dependency: false
+        encrypted_possible_answer: jrRa2MJT/oeEuTLr8cHGlqhoGePQCbNnRvv727lC+1hTCbhp550Iygtlbm5KOI0x4vhfFYrAKV64ywPvAohMNQ==
+        selected: false
+        status: Unchecked
+      - offset: 925
+        length: 193
+        placeholder_text: "# TODO: check if the method is POST, iterate over required\
+      \ fields, if any of them are absent in the provided data, raise ValidationError\
+      \ with a custom message indicating which filed is missing."
+        initial_state:
+          length: 193
+          offset: 925
+        initialized_from_dependency: false
+        encrypted_possible_answer: tGnJQfkDFv8qHdhICQCRY6l5t1ndjTCvE9SvyhZbl5THLM2bF94UeCgB/Vgc6ssgOqZpj7Z/V5KfxAYfX6PsV5bPIAbGgbLpninHggXa0VEZmBWkoGgQs3WSGTgHRY1oUJZfSzsE7bAxr6KV2YiV329ILepclVrPGUyhx1VZzeUP+N1Vtv2HS5jMxsI1bthYcTlpQPaj+0VHa7c2HF5OWGIpE/Lo15I1DbIuEAHApv1Gqzmlvz9g1Yyry1amkoSC
+        selected: false
+        status: Unchecked
+      - offset: 2198
+        length: 57
+        placeholder_text: "# TODO: return the list of devices in the required format"
+        initial_state:
+          length: 57
+          offset: 2198
+        initialized_from_dependency: false
+        encrypted_possible_answer: QZvbWMaSiEDaATBo0+u22sYrQgNJEHUiWQhfImkTpBsKKvza8RXltg/4kgGTo58k
+        selected: false
+        status: Unchecked
+      - offset: 2300
+        length: 203
+        placeholder_text: "# TODO: try to initialize a new device using the method device_schema.load()\
+      \ with json data from the request, return the error message from validation\
+      \ in case it returns an error, with a reponse code 400"
+        initial_state:
+          length: 203
+          offset: 2300
+        initialized_from_dependency: false
+        encrypted_possible_answer: e6x5UulFg/re2DAYhgDzi4No7F7KhuwpslUoZZ13PCFO7bzSfnsO5X/mtTSQJNgGyY1lLQ8dgJbMKzO49sA2QI5pAzW3UFvX5miArxj1OQOgXh+LtVjMoLxj7LXp/NadyA8wGjq5fxFZCgu5diOePE7rfasGyglcuy4UIWWV3OB/jfrtnElUbBCscKrxEhlitf1lFSMeSEBiBO9fCSRHsw==
+        selected: false
+        status: Unchecked
+      - offset: 2513
+        length: 113
+        placeholder_text: "# TODO: check it the new device id is already present in our\
+      \ data and if so, return an error message and code 400"
+        initial_state:
+          length: 113
+          offset: 2513
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5JhbGYVX47Zb10b2A/5FCDhffcvt0ldRWBlevnli44ksU5nPY39+xdl5e/WXGz/GRe2OJOEAjlTP2JzOFrZrhJSlj8ZsQFwuKpKVlbpTEGp20rVmDSvVWGVzpFJqQmNr1tDL9mwTbM8plIyUEx6ytjwTCNI72CvQE/351u4pk5I=
+        selected: false
+        status: Unchecked
+      - offset: 2636
+        length: 87
+        placeholder_text: "# TODO: add a new device to devices and return a success message\
+      \ in the required format"
+        initial_state:
+          length: 87
+          offset: 2636
+        initialized_from_dependency: false
+        encrypted_possible_answer: 7TdiWH6zL9TLiN7ApvhAni7KM+5YJUDzOEzIOPvIr+jE7Ou/LgGLtEeIzNVVfwCr11NK3YJj5yy/rRGPBDkxDptywdQskX8so0WJ4mf1JW8sQWWcu4mu2wybjmjnrUPs56kwtOii12Eb3L9X8i+RcQ==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+status: Unchecked
+feedback:
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Mon, 01 Dec 2025 09:00:42 UTC"
+record: -1

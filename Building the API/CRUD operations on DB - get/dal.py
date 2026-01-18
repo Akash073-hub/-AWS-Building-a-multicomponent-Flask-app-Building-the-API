@@ -1,0 +1,46 @@
+import shelve
+from flask import g
+
+
+# This function creates a database if none has yet been created,
+# or opens it if it's already there.
+def pull_db():
+    db_ = getattr(g, '_database', None)
+    if db_ is None:
+        db_ = g._database = shelve.open("storage")
+    return db_
+
+
+# This function returns the entire dataset of devices as a dictionary
+def get():
+    with pull_db() as shelf:
+        devices_ = {}
+        # TODO: populate the dictionary with data from shelf
+    return devices_
+
+
+# A Dict of Dicts to define initial devices
+devices = {"001": {
+    "id": "001",
+    "name": "Light bulb",
+    "location": "hall",
+    "status": "off"
+},
+    "002": {
+        "id": "002",
+        "name": "Humidity_sensor",
+        "location": "bedroom",
+        "status": "on"
+    },
+    "003": {
+        "id": "003",
+        "name": "Humidifier",
+        "location": "bedroom",
+        "status": "off"
+    }
+}
+
+# Initialize db with some data already in it
+with shelve.open('storage') as db:
+    for key, value, in devices.items():
+        db[key] = value

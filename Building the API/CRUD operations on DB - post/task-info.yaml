@@ -1,0 +1,84 @@
+type: edu
+files:
+  - name: dal.py
+    visible: true
+    placeholders:
+      - offset: 616
+        length: 40
+        placeholder_text: "# TODO: create the database shelf object"
+        initial_state:
+          length: 40
+          offset: 616
+        initialized_from_dependency: false
+        encrypted_possible_answer: iEJmfkECsaYcoDT/u+DvgXWqo1YMV22EX4o9EIGd1EA=
+        selected: false
+        status: Unchecked
+      - offset: 665
+        length: 89
+        placeholder_text: "# TODO: Check if the id already exists in the shelf, and if\
+      \ so--returnin an error message"
+        initial_state:
+          length: 89
+          offset: 665
+        initialized_from_dependency: false
+        encrypted_possible_answer: Pf0rZo/CezSduIAbGuhdOHW9U3pTv9coJejZnGuCxN//YhsQHMcyHEqiQwDo/kQss9X4BcSs15h/L2wliALBTVG8fTLwar8EQCP4EUmIQe34tBZEOPGif3EHmjqhGXKB
+        selected: false
+        status: Unchecked
+      - offset: 819
+        length: 62
+        placeholder_text: "# TODO: add the data about the new item from args to the shelf"
+        initial_state:
+          length: 62
+          offset: 819
+        initialized_from_dependency: false
+        encrypted_possible_answer: KLaIhSHCGFIXF3YhcZMS2TTWFVVRFV6C0N89K39proWxprJIWqAuHuCxsfw3n4Gr8Odek67m7D46khxitDgq/A==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 2028
+        length: 147
+        placeholder_text: |-
+          try:
+                      new_device = device_schema.load(request.json)
+                  except ValidationError as err:
+                      return jsonify(err.messages), 400
+        initial_state:
+          length: 147
+          offset: 2028
+        initialized_from_dependency: false
+        encrypted_possible_answer: e6x5UulFg/re2DAYhgDzi4NDMJDPgEOp7Va5BNC+w/+3qnSK3r1PbsV893cWTBLWkuuobt8wFwaKLPW5LWHa1PlgUsHoJ7Ss/FagWaM2pg0cCqbYaC6Yhfz5FSyHc+cr8cd4Np5B7LZcZ4riAl8zLz368GDaOXvxKsaeEdtZesGnSe8YFQtfQFnJ7Z/KJ0fPitV75g5kK690go4thc/A0pZJgL4X9E+GyptmdQkNb/Q=
+        selected: false
+        status: Unchecked
+      - offset: 2185
+        length: 223
+        placeholder_text: |-
+          if new_device["id"] in devices:
+                      return jsonify({'message': 'Device with this ID already exists'}), 400
+          
+                  devices[new_device["id"]] = new_device
+                  return jsonify({"Posted a device": new_device}), 201
+        initial_state:
+          length: 223
+          offset: 2185
+        initialized_from_dependency: false
+        encrypted_possible_answer: 3D9c3S9A5VCTJzqqKTsM8IJP/6IJ9RKJ6bUjImZbM+Q4bHsqerpoVYN1eQZ/+HEH/20JC4Hg623AtGTqZ4HQGFofnTQb6qm08wdHX+bZQzszvE/QQAt/0OLXfrXXwHDH/IvAWyrdXY2tKc3FrUKMlJkkcaBvL5q0KgH0zYHPJTgc4CDCcmtIJQwjmpf7wIzF4oEE6jvchj6vxTq8oEcBBliacr7UUIMs7TwAeZuX4mq9/QPbF7NPRLMb7VHChXvh8pT/wVdI/PpCHvh2Qq9wNVzQPwE42Fr3XF8pWTuclO0=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/api_test.py
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

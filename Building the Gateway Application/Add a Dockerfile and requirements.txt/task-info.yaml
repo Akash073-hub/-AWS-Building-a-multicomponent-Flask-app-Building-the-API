@@ -1,0 +1,71 @@
+type: edu
+files:
+  - name: gateway/Dockerfile
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 27
+        placeholder_text: "# Add content of Dockerfile"
+        initial_state:
+          length: 27
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: yXt8RCnuw8ItBpYoEK1vHNmg/DzKWGFEKHSQKXg4jxcSxmQo2eSdekzrkYpi48Qy4BTNRsytne8HJiYMcDU4zo7VJQztmE3h60un0cOahdW2ASbWgIrZKS5mSxayKuzXmVKlS2L41CSlJykPodqpxRxsRmx+bJA3r/OrFJKSlMvWLijebL8u+73ycOFHCavJ3dzq/Y10np0Z+JPnsUF1RA==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: gateway/requirements.txt
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 23
+        placeholder_text: "# Add requirements here"
+        initial_state:
+          length: 23
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: 7E/JXDYf2H4T7uQ2M0ElJA==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: gateway/application.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: gateway/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/api.py
+    visible: true
+    learner_created: false
+  - name: invsys/dal.py
+    visible: true
+    learner_created: false
+  - name: invsys/Dockerfile
+    visible: true
+    learner_created: false
+  - name: invsys/requirements.txt
+    visible: true
+    learner_created: false
+  - name: docker-compose.yaml
+    visible: false
+    learner_created: false
+  - name: runConfigurations/Gateway_add_Dockerfile_Test.run.xml
+    visible: false
+    learner_created: false
+  - name: buildConfigurations/Gateway_add_Dockerfile_Build.run.xml
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

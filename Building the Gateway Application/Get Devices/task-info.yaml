@@ -1,0 +1,60 @@
+type: edu
+files:
+  - name: gateway/application.py
+    visible: true
+    placeholders:
+      - offset: 357
+        length: 29
+        placeholder_text: "# TODO: complete the function"
+        initial_state:
+          length: 29
+          offset: 357
+        initialized_from_dependency: false
+        encrypted_possible_answer: U0Yc7xHY5Cgn6FSWlq6UALKmj0TK3VKx7ZtvKhgsbS36TMNkS0B1KwuWaOWJG8/lST82uZjHSa+Rfbj6NTyBkg==
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: gateway/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/__init__.py
+    visible: false
+    learner_created: false
+  - name: invsys/api.py
+    visible: true
+    learner_created: false
+  - name: invsys/dal.py
+    visible: true
+    learner_created: false
+  - name: invsys/Dockerfile
+    visible: true
+    learner_created: false
+  - name: invsys/requirements.txt
+    visible: true
+    learner_created: false
+  - name: docker-compose.yaml
+    visible: false
+    learner_created: false
+  - name: gateway/Dockerfile
+    visible: false
+    learner_created: false
+  - name: gateway/requirements.txt
+    visible: false
+    learner_created: false
+  - name: buildConfigurations/Get_Devices_Build.run.xml
+    visible: false
+    learner_created: false
+  - name: runConfigurations/Get_Devices_Test.run.xml
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

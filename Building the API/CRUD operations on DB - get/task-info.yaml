@@ -1,0 +1,54 @@
+type: edu
+files:
+  - name: dal.py
+    visible: true
+    placeholders:
+      - offset: 421
+        length: 52
+        placeholder_text: "# TODO: populate the dictionary with data from shelf"
+        initial_state:
+          length: 52
+          offset: 421
+        initialized_from_dependency: false
+        encrypted_possible_answer: 09mRkMheWn0e0rLJu4aDhWFRBW4u6gaKgUb1BWYmzU1NTpdao5Sd7aBhhM7+aaLeNXRrwX7QWpvliOjVhs+KW2UwbnjBDGtsh/5IbPUFY6U0Tcz5QqioFT+2ljeJ5FB2
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: api.py
+    visible: true
+    placeholders:
+      - offset: 116
+        length: 18
+        placeholder_text: "# TODO: import dal"
+        initial_state:
+          length: 18
+          offset: 116
+        initialized_from_dependency: false
+        encrypted_possible_answer: IWU4qW75Q8m/1KcYqnYhhA==
+        selected: false
+        status: Unchecked
+      - offset: 1914
+        length: 39
+        placeholder_text: "return jsonify({\"items\": devices}), 200"
+        initial_state:
+          length: 39
+          offset: 1914
+        initialized_from_dependency: false
+        encrypted_possible_answer: fyDp9VEKq7e17opYyzkZJqYGbYH52VBMXgHjTBAscsGz5pI53oePSF0onOB6rddnzDEeRyf6rEGnh2iLrp7Ks27AFF+gfUWvGAHn/TfAG0o=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: tests/api_test.py
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1
