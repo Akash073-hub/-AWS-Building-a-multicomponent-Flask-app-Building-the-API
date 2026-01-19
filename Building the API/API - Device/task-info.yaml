@@ -16,8 +16,8 @@ files:
         length: 685
         placeholder_text: "# TODO: add another two required fields"
         initial_state:
-          length: 39
-          offset: 605
+          length: 685
+          offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: WmaGytGG5zkY8sZj0vKzpW2jBZf69WAID5UazrNqOdHm+7A3EHe9RYTCLHj0N3JHkoAFb6wwrGeAglIWvfAF/xoHc5CxHtxEqppeBbEFcZc=
         selected: true
@@ -26,8 +26,8 @@ files:
         length: 33
         placeholder_text: "# TODO: get the device from the dictionary by its identifier"
         initial_state:
-          length: 60
-          offset: 819
+          length: 33
+          offset: 856
         initialized_from_dependency: false
         encrypted_possible_answer: 8NHMz6TNh8/HxiWyUwVTgf/NzDFFk17b8SUm1IQz3GzkvPzo3/+iHemYY9HCz8Fc
         selected: true
@@ -37,8 +37,8 @@ files:
         placeholder_text: "# TODO: if there's no such identifier in our data,  return\
       \ a device not found message and a 404 response code"
         initial_state:
-          length: 109
-          offset: 1212
+          length: 94
+          offset: 1223
         initialized_from_dependency: false
         encrypted_possible_answer: u09FJzB8dCpoLYrB94BGzrGsE8+fBkQ4Yf5EiE1vgeBgkX6HuQ3zOMaluZQwknmjPT7CNL81BsVycu+3o64PZpYMQt/ZvC1CEqJT4ucFnGxDi7bVtHkt3+OwFmQ/qwe4
         selected: true
@@ -48,8 +48,8 @@ files:
         placeholder_text: "# TODO: if there's no such identifier in our data, return the\
       \ device not found message and a 404 response code"
         initial_state:
-          length: 110
-          offset: 1470
+          length: 81
+          offset: 1466
         initialized_from_dependency: false
         encrypted_possible_answer: u09FJzB8dCpoLYrB94BGzrGsE8+fBkQ4Yf5EiE1vgeBgkX6HuQ3zOMaluZQwknmjPT7CNL81BsVycu+3o64PZpYMQt/ZvC1CEqJT4ucFnGxDi7bVtHkt3+OwFmQ/qwe4
         selected: true
@@ -59,8 +59,8 @@ files:
         placeholder_text: "# TODO: delete the device with the identifier provided, return\
       \ a device deleted message and a response code 200"
         initial_state:
-          length: 111
-          offset: 1589
+          length: 95
+          offset: 1556
         initialized_from_dependency: false
         encrypted_possible_answer: xcbG32IOayKEK8B9ZkfoHIa3K3xipaUXzvN1O9p0aaTMewcSN8I7OkwaYXwkIe0NwhU8EYLVfjTS0V/A01e5fqGq3ij1+jfLaJ8d4fmbHtDO/K20r1TvBll6PcBn0o4E
         selected: false
@@ -70,6 +70,9 @@ files:
     visible: true
     learner_created: true
   - name: README.md.save
+    visible: true
+    learner_created: true
+  - name: README.md
     visible: true
     learner_created: true
 status: Unchecked
