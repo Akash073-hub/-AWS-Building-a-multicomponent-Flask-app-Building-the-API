@@ -10,27 +10,27 @@ devices = {
     "003": {"id": "003", "name": "Humidifier", "location": "bedroom", "status": "off"}
 }
 
-
-# Define Marshmallow Schema for request and response validation
+# Marshmallow Schema
 class DeviceSchema(Schema):
     id = fields.Str(required=True)
     name = fields.Str(required=True)
-    address = fields.Str(required=False)
     location = fields.Str(required=True)
-
+    status = fields.Str(required=True)
 
 device_schema = DeviceSchema()
 
+
 @app.route('/items/<string:identifier>', methods=['GET', 'PUT', 'DELETE'])
 def device(identifier):
+
+    # GET device
     if request.method == 'GET':
         device = devices.get(identifier)
         if not device:
             return jsonify({'message': 'Device not found'}), 404
         return jsonify(device), 200
 
-
-
+    # UPDATE device
     elif request.method == 'PUT':
         try:
             args = device_schema.load(request.json, partial=True)
@@ -41,14 +41,16 @@ def device(identifier):
             return jsonify({'message': 'Device not found'}), 404
 
         devices[identifier].update(args)
-        return jsonify({"updated device": identifier}), 200
+        return jsonify({"message": "Device updated", "device": devices[identifier]}), 200
 
+    # DELETE device
     elif request.method == 'DELETE':
         if identifier not in devices:
             return jsonify({'message': 'Device not found'}), 404
 
-        del devices[identifier]
-        return jsonify({'message': 'Device deleted'}), 200
+        deleted_device = devices.pop(identifier)
+        return jsonify({"message": "Device deleted", "device": deleted_device}), 200
+
 
 if __name__ == "__main__":
     app.run("0.0.0.0", port=5000, debug=True)
